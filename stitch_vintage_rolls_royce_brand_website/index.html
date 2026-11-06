@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>The Sovereign Archive | 1932 Rolls-Royce Phantom II Continental</title>
+  <title>The Sovereign Archive | Classic & Vintage Motor Cars</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
   
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -59,23 +59,27 @@
       <a href="#" class="flex items-center gap-3">
         <span class="material-symbols-outlined text-gold-accent text-3xl">directions_car</span>
         <div class="flex flex-col">
-          <span class="font-serif text-2xl tracking-[0.2em] uppercase text-gold-accent font-semibold">Rolls-Royce</span>
-          <span class="text-[10px] tracking-[0.25em] uppercase text-silver-text">The Sovereign Archive</span>
+          <span class="font-serif text-2xl tracking-[0.2em] uppercase text-gold-accent font-semibold">Sovereign Archive</span>
+          <span class="text-[10px] tracking-[0.25em] uppercase text-silver-text">Luxury & Classic Collection</span>
         </div>
       </a>
 
       <!-- Navigation Links -->
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-widest uppercase">
-        <a href="#gallery" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Exhibition</a>
-        <a href="#specifications" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Specifications</a>
+        <a href="#inventory" class="text-gold-light hover:text-gold-accent transition-colors duration-200">Showroom (₦)</a>
+        <a href="#gallery" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Rolls-Royce Feature</a>
+        <a href="#specifications" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Technical</a>
         <a href="#provenance" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Provenance</a>
         <a href="#inquiry" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Acquisition</a>
       </nav>
 
       <!-- Action Button -->
       <div class="flex items-center gap-4">
-        <a href="#inquiry" class="inline-flex items-center gap-2 px-5 py-2.5 rounded border border-gold-accent bg-gold-accent/10 hover:bg-gold-accent hover:text-night-deep text-gold-accent text-xs font-semibold tracking-widest uppercase transition-all duration-300 shadow-[0_0_15px_rgba(212,175,55,0.15)]">
-          Private Viewing
+        <a href="#inventory" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded border border-gold-accent/40 bg-gold-accent/10 hover:bg-gold-accent hover:text-night-deep text-gold-accent text-xs font-semibold tracking-widest uppercase transition-all duration-300">
+          View Showroom
+        </a>
+        <a href="#inquiry" class="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-gold-accent hover:bg-gold-light text-night-deep text-xs font-semibold tracking-widest uppercase transition-all duration-300 shadow-[0_0_15px_rgba(212,175,55,0.2)]">
+          Inquire
         </a>
       </div>
     </div>
@@ -83,209 +87,436 @@
 
   <main class="pt-20">
 
-    <!-- HERO SECTION -->
-    <section class="relative min-h-[85vh] flex items-center justify-center border-b border-gold-accent/15 overflow-hidden">
+    <!-- HERO SECTION (Sleek, well-proportioned height) -->
+    <section class="relative min-h-[75vh] flex items-center justify-center border-b border-gold-accent/15 overflow-hidden">
       <!-- Background Image with Overlay -->
       <div class="absolute inset-0 z-0">
         <img 
           src="/images/hero-phantom.jpg" 
           alt="1932 Rolls-Royce Phantom II Continental" 
-          class="w-full h-full object-cover object-center brightness-75 scale-105 transition-transform duration-1000"
+          class="w-full h-full object-cover object-center brightness-75 scale-100 transition-transform duration-1000"
           loading="eager"
         />
         <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/60 to-night-deep/40"></div>
       </div>
 
       <!-- Hero Content -->
-      <div class="relative z-10 max-w-5xl mx-auto px-6 text-center py-16 flex flex-col items-center">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-gold-accent/30 bg-night-deep/80 backdrop-blur-sm mb-6">
+      <div class="relative z-10 max-w-4xl mx-auto px-6 text-center py-12 flex flex-col items-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-gold-accent/30 bg-night-deep/80 backdrop-blur-sm mb-4">
           <span class="w-2 h-2 rounded-full bg-gold-accent animate-pulse"></span>
-          <span class="text-xs uppercase tracking-[0.2em] text-gold-light font-medium">Chassis 78JS • Coachwork by Barker & Co.</span>
+          <span class="text-xs uppercase tracking-[0.2em] text-gold-light font-medium">Bespoke Classic & Vintage Motor Cars</span>
         </div>
 
-        <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold uppercase tracking-wide text-ivory leading-tight mb-4">
-          1932 Rolls-Royce<br/>
-          <span class="italic font-normal text-gold-accent">Phantom II Continental</span>
+        <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl font-bold uppercase tracking-wide text-ivory leading-tight mb-3">
+          Timeless Marque<br/>
+          <span class="italic font-normal text-gold-accent">Acquisition & Archives</span>
         </h1>
 
-        <p class="max-w-2xl text-base sm:text-lg text-silver-text font-light leading-relaxed mb-8">
-          A masterwork of British bespoke coachbuilding. Preserved in premier concours condition with verified matching numbers and documented lineage.
+        <p class="max-w-xl text-sm sm:text-base text-silver-text font-light leading-relaxed mb-6">
+          Curated historical masterworks and celebrated classics available for private acquisition in Nigeria and worldwide.
         </p>
 
         <!-- CTA Group -->
         <div class="flex flex-wrap items-center justify-center gap-4">
-          <a href="#inquiry" class="px-8 py-3.5 rounded bg-gold-accent hover:bg-gold-light text-night-deep font-semibold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.3)]">
-            Inquire for Private Treaty
+          <a href="#inventory" class="px-7 py-3 rounded bg-gold-accent hover:bg-gold-light text-night-deep font-semibold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.3)]">
+            Explore Showroom in Naira (₦)
           </a>
-          <button id="audio-toggle-btn" type="button" class="inline-flex items-center gap-2 px-6 py-3.5 rounded border border-silver-text/30 bg-night-card/70 hover:bg-night-surface text-ivory text-xs uppercase tracking-widest transition-all duration-300">
-            <span class="material-symbols-outlined text-gold-accent text-lg" id="audio-icon">volume_up</span>
-            <span id="audio-text">Audio: Engine Idle</span>
-          </button>
-        </div>
-
-        <!-- 4 Stat Highlights Grid -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mt-14 pt-10 border-t border-gold-accent/20">
-          <div class="p-4 rounded bg-night-card/80 border border-gold-accent/20 text-center">
-            <span class="text-[11px] text-silver-text uppercase tracking-widest block mb-1">Production</span>
-            <span class="font-serif text-2xl text-ivory font-semibold">1932</span>
-          </div>
-          <div class="p-4 rounded bg-night-card/80 border border-gold-accent/20 text-center">
-            <span class="text-[11px] text-silver-text uppercase tracking-widest block mb-1">Displacement</span>
-            <span class="font-serif text-2xl text-ivory font-semibold">7.7 Litre</span>
-          </div>
-          <div class="p-4 rounded bg-night-card/80 border border-gold-accent/20 text-center">
-            <span class="text-[11px] text-silver-text uppercase tracking-widest block mb-1">Coachbuilder</span>
-            <span class="font-serif text-2xl text-ivory font-semibold truncate block">Barker & Co.</span>
-          </div>
-          <div class="p-4 rounded bg-night-card/80 border border-gold-accent/20 text-center">
-            <span class="text-[11px] text-silver-text uppercase tracking-widest block mb-1">Registry Status</span>
-            <span class="font-serif text-2xl text-gold-accent font-semibold">RREC #2941</span>
-          </div>
+          <a href="#inquiry" class="px-6 py-3 rounded border border-silver-text/30 bg-night-card/70 hover:bg-night-surface text-ivory text-xs uppercase tracking-widest transition-all duration-300">
+            Book Private Treaty
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- CURATED GALLERY CAROUSEL SECTION -->
-    <section id="gallery" class="py-20 max-w-7xl mx-auto px-6">
+    <!-- CLASSIC SHOWROOM & INVENTORY IN NAIRA (₦) -->
+    <section id="inventory" class="py-20 max-w-7xl mx-auto px-6">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
         <div>
-          <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Curatorial Exhibition</span>
-          <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Archival Visual Inspection</h2>
+          <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Private Treaty Collection</span>
+          <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Classic Showroom • Available for Purchase</h2>
+          <p class="text-sm text-silver-text mt-1">All pricing certified in Nigerian Naira (₦). Fully documented provenance and road-certified.</p>
         </div>
-        <!-- Carousel Arrows -->
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center gap-2 mb-10 pb-4 border-b border-gold-accent/20" id="filter-container">
+        <button class="filter-btn active px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-gold-accent text-night-deep transition-all" data-brand="all">All Models</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Rolls-Royce">Rolls-Royce</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Mercedes-Benz">Mercedes-Benz</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="BMW">BMW</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Bugatti">Bugatti</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Toyota">Toyota & Venza</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Honda">Honda</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Lexus">Lexus</button>
+      </div>
+
+      <!-- Inventory Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="inventory-grid">
+
+        <!-- 1. Rolls-Royce Phantom II -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Rolls-Royce">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/hero-phantom.jpg" alt="1932 Rolls-Royce Phantom II" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Rolls-Royce</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">1932 • Continental Saloon</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Rolls-Royce Phantom II</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">Barker coachwork, 7.7L OHV Inline-6, 144-inch chassis, RREC Certificate #2941.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦480,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1932 Rolls-Royce Phantom II (₦480,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Bugatti Type 57 -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Bugatti">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/bugatti-type57.jpg" alt="1936 Bugatti Type 57" class="w-full h-full object-cover"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Bugatti</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">1936 • Molsheim Legend</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Bugatti Type 57 Galibier</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">3.3L Dual Overhead Cam Inline-8, Jean Bugatti styling, factory wire-wheels.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦620,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1936 Bugatti Type 57 (₦620,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. Mercedes-Benz 300 SL Gullwing -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Mercedes-Benz">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/mercedes-300sl.jpg" alt="1955 Mercedes-Benz 300 SL" class="w-full h-full object-cover"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Mercedes-Benz</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">1955 • Iconic Gullwing</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Mercedes-Benz 300 SL</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">Direct-injected 3.0L M198 engine, tubular spaceframe, upward-opening doors.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦420,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1955 Mercedes-Benz 300 SL Gullwing (₦420,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+        <!-- 4. BMW 507 Roadster -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="BMW">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/bmw-507.jpg" alt="1957 BMW 507" class="w-full h-full object-cover"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">BMW</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">1957 • Series II Roadster</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">BMW 507 Roadster</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">3.2L all-aluminum V8, Albrecht von Goertz coachwork, dual Zenith carbs.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦310,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1957 BMW 507 Roadster (₦310,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+        <!-- 5. Toyota 2000GT -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Toyota">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/toyota-2000gt.jpg" alt="1967 Toyota 2000GT" class="w-full h-full object-cover"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Toyota</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">1967 • Grand Tourer</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Toyota 2000GT Coupe</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">Yamaha-tuned 2.0L DOHC Inline-6, rosewood dashboard, limited run 351 units.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦215,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1967 Toyota 2000GT (₦215,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+        <!-- 6. Honda S800 -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Honda">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/honda-s800.jpg" alt="1966 Honda S800" class="w-full h-full object-cover"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Honda</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">1966 • High-Rev Classic</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Honda S800 Coupe</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">791cc DOHC 4-cylinder engine, 10,000 RPM redline, Soichiro Honda engineering.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦78,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1966 Honda S800 Coupe (₦78,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+        <!-- 7. Lexus LS 400 -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Lexus">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/lexus-ls400.jpg" alt="1993 Lexus LS 400" class="w-full h-full object-cover"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Lexus</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">1993 • Modern Classic V8</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Lexus LS 400 Heritage</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">Legendary 1UZ-FE 4.0L V8, whisper-quiet cabin, California Walnut wood appointments.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦92,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1993 Lexus LS 400 Heritage (₦92,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+        <!-- 8. Toyota Venza Limited -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Toyota">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/toyota-venza.jpg" alt="Toyota Venza Limited" class="w-full h-full object-cover"/>
+              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Toyota / Venza</span>
+              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
+            </div>
+            <div class="p-5">
+              <span class="text-xs text-silver-text uppercase tracking-widest">2021 • Bespoke Luxury Hybrid</span>
+              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Toyota Venza Limited AWD</h3>
+              <p class="text-xs text-silver-text mt-2 line-clamp-2">Electronic On-Demand AWD, Star Gaze electrochromic panoramic glass roof, JBL Audio.</p>
+              
+              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <div>
+                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
+                  <span class="text-lg font-bold text-gold-accent">₦58,000,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="Toyota Venza Limited AWD (₦58,000,000)">
+              Inquire / Purchase
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CURATED ROLLS-ROYCE GALLERY (Well-proportioned, compact display) -->
+    <section id="gallery" class="py-16 max-w-5xl mx-auto px-6 border-t border-gold-accent/20">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+        <div>
+          <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-1">Featured Masterpiece</span>
+          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase font-semibold">1932 Rolls-Royce Phantom II Continental</h2>
+        </div>
+        <!-- Carousel Controls -->
         <div class="flex items-center gap-3">
-          <button id="carousel-prev" aria-label="Previous" class="w-10 h-10 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
+          <button id="carousel-prev" aria-label="Previous" class="w-9 h-9 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
             <span class="material-symbols-outlined text-sm">arrow_back</span>
           </button>
           <div class="flex items-center gap-1.5 px-2">
-            <button class="carousel-dot w-6 h-1.5 rounded-full bg-gold-accent transition-all" data-slide="0"></button>
+            <button class="carousel-dot w-5 h-1.5 rounded-full bg-gold-accent transition-all" data-slide="0"></button>
             <button class="carousel-dot w-2 h-1.5 rounded-full bg-gold-accent/30 transition-all" data-slide="1"></button>
             <button class="carousel-dot w-2 h-1.5 rounded-full bg-gold-accent/30 transition-all" data-slide="2"></button>
             <button class="carousel-dot w-2 h-1.5 rounded-full bg-gold-accent/30 transition-all" data-slide="3"></button>
           </div>
-          <button id="carousel-next" aria-label="Next" class="w-10 h-10 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
+          <button id="carousel-next" aria-label="Next" class="w-9 h-9 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
             <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
         </div>
       </div>
 
-      <!-- Carousel Viewer -->
-      <div class="relative overflow-hidden rounded-xl border border-gold-accent/25 bg-night-card">
+      <!-- Carousel Viewer (Max height 420px for a refined, compact display) -->
+      <div class="relative overflow-hidden rounded-xl border border-gold-accent/25 bg-night-card shadow-2xl">
         <div id="carousel-track" class="flex transition-transform duration-500 ease-out" style="transform: translateX(0%);">
           
-          <!-- Slide 0: Hero 3/4 Exterior -->
-          <div class="min-w-full relative aspect-[16/9] md:aspect-[21/9] bg-night-deep">
-            <img src="/images/hero-phantom.jpg" alt="Phantom II Continental Exterior" class="w-full h-full object-cover"/>
+          <!-- Slide 0: Stance -->
+          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
+            <img src="/images/hero-phantom.jpg" alt="Phantom II Exterior" class="w-full h-full object-cover object-center"/>
             <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6">
-              <span class="text-xs uppercase tracking-widest text-gold-accent font-semibold">Chassis 78JS</span>
-              <h3 class="font-serif text-2xl md:text-3xl text-ivory font-semibold">Exterior Stance & Midnight Coachwork</h3>
+            <div class="absolute bottom-5 left-5 right-5">
+              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Chassis 78JS</span>
+              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">Exterior Stance & Midnight Coachwork</h3>
             </div>
           </div>
 
-          <!-- Slide 1: Mascot Close-up -->
-          <div class="min-w-full relative aspect-[16/9] md:aspect-[21/9] bg-night-deep">
-            <img src="/images/spirit-of-ecstasy.jpg" alt="Spirit of Ecstasy Mascot" class="w-full h-full object-cover"/>
+          <!-- Slide 1: Mascot -->
+          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
+            <img src="/images/spirit-of-ecstasy.jpg" alt="Spirit of Ecstasy Mascot" class="w-full h-full object-cover object-center"/>
             <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6">
-              <span class="text-xs uppercase tracking-widest text-gold-accent font-semibold">Charles Sykes Bronze</span>
-              <h3 class="font-serif text-2xl md:text-3xl text-ivory font-semibold">The Spirit of Ecstasy Mascot</h3>
+            <div class="absolute bottom-5 left-5 right-5">
+              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Charles Sykes Bronze</span>
+              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">The Spirit of Ecstasy Mascot</h3>
             </div>
           </div>
 
-          <!-- Slide 2: Interior Cockpit -->
-          <div class="min-w-full relative aspect-[16/9] md:aspect-[21/9] bg-night-deep">
-            <img src="/images/interior-cockpit.jpg" alt="Burr Walnut Dashboard and Interior" class="w-full h-full object-cover"/>
+          <!-- Slide 2: Interior -->
+          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
+            <img src="/images/interior-cockpit.jpg" alt="Burr Walnut Dashboard and Cockpit" class="w-full h-full object-cover object-center"/>
             <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6">
-              <span class="text-xs uppercase tracking-widest text-gold-accent font-semibold">Hand-Selected Veneers</span>
-              <h3 class="font-serif text-2xl md:text-3xl text-ivory font-semibold">Burr Walnut Instrument Fascia & Cockpit</h3>
+            <div class="absolute bottom-5 left-5 right-5">
+              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Hand-Selected Veneers</span>
+              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">Burr Walnut Instrument Fascia & Cockpit</h3>
             </div>
           </div>
 
-          <!-- Slide 3: Front Elevation -->
-          <div class="min-w-full relative aspect-[16/9] md:aspect-[21/9] bg-night-deep">
-            <img src="/images/exterior-front.jpg" alt="Classical Temple Radiator Shell" class="w-full h-full object-cover"/>
+          <!-- Slide 3: Front Temple Radiator -->
+          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
+            <img src="/images/exterior-front.jpg" alt="Classical Temple Radiator" class="w-full h-full object-cover object-center"/>
             <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6">
-              <span class="text-xs uppercase tracking-widest text-gold-accent font-semibold">Derby Craftsmanship</span>
-              <h3 class="font-serif text-2xl md:text-3xl text-ivory font-semibold">Temple Radiator Shell & Lucas Lamps</h3>
+            <div class="absolute bottom-5 left-5 right-5">
+              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Derby Craftsmanship</span>
+              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">Temple Radiator Shell & Lucas P100 Headlamps</h3>
             </div>
           </div>
 
         </div>
       </div>
 
-      <!-- Thumbnail Preview Strip -->
-      <div class="grid grid-cols-4 gap-3 mt-4">
-        <button class="thumb-btn h-16 sm:h-20 rounded border-2 border-gold-accent overflow-hidden transition-all opacity-100" data-index="0">
-          <img src="/images/hero-phantom.jpg" class="w-full h-full object-cover" alt="Thumb 1 - Exterior"/>
+      <!-- Thumbnail Preview Strip (Compact 14-16 height) -->
+      <div class="grid grid-cols-4 gap-3 mt-3">
+        <button class="thumb-btn h-14 sm:h-16 rounded border-2 border-gold-accent overflow-hidden transition-all opacity-100" data-index="0">
+          <img src="/images/hero-phantom.jpg" class="w-full h-full object-cover" alt="Thumb 1 - Stance"/>
         </button>
-        <button class="thumb-btn h-16 sm:h-20 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="1">
+        <button class="thumb-btn h-14 sm:h-16 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="1">
           <img src="/images/spirit-of-ecstasy.jpg" class="w-full h-full object-cover" alt="Thumb 2 - Mascot"/>
         </button>
-        <button class="thumb-btn h-16 sm:h-20 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="2">
+        <button class="thumb-btn h-14 sm:h-16 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="2">
           <img src="/images/interior-cockpit.jpg" class="w-full h-full object-cover" alt="Thumb 3 - Interior"/>
         </button>
-        <button class="thumb-btn h-16 sm:h-20 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="3">
-          <img src="/images/exterior-front.jpg" class="w-full h-full object-cover" alt="Thumb 4 - Front Stance"/>
+        <button class="thumb-btn h-14 sm:h-16 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="3">
+          <img src="/images/exterior-front.jpg" class="w-full h-full object-cover" alt="Thumb 4 - Radiator"/>
         </button>
       </div>
 
-      <!-- 4-Card Macro Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden group hover:border-gold-accent transition-all duration-300">
-          <div class="aspect-[4/3] overflow-hidden">
-            <img src="/images/hero-phantom.jpg" alt="Plate 01" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+      <!-- 4-Card Macro Grid (Compact aspect-[16/10], max height 160px) -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
+          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
+            <img src="/images/hero-phantom.jpg" alt="Plate 01" class="w-full h-full object-cover"/>
           </div>
-          <div class="p-4">
-            <span class="text-[10px] uppercase tracking-widest text-gold-accent font-semibold">Plate 01 • Coachwork</span>
-            <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Barker Sports Stance</h4>
-            <p class="text-xs text-silver-text mt-1">Preserved hand-formed aluminium bodywork.</p>
-          </div>
-        </div>
-
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden group hover:border-gold-accent transition-all duration-300">
-          <div class="aspect-[4/3] overflow-hidden">
-            <img src="/images/spirit-of-ecstasy.jpg" alt="Plate 02" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
-          </div>
-          <div class="p-4">
-            <span class="text-[10px] uppercase tracking-widest text-gold-accent font-semibold">Plate 02 • Ornamentation</span>
-            <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Spirit of Ecstasy</h4>
-            <p class="text-xs text-silver-text mt-1">Charles Sykes cast mascot in nickel silver.</p>
+          <div class="p-3">
+            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 01 • Stance</span>
+            <h4 class="font-serif text-sm text-ivory font-semibold">Barker Saloon</h4>
           </div>
         </div>
 
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden group hover:border-gold-accent transition-all duration-300">
-          <div class="aspect-[4/3] overflow-hidden">
-            <img src="/images/interior-cockpit.jpg" alt="Plate 03" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
+          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
+            <img src="/images/spirit-of-ecstasy.jpg" alt="Plate 02" class="w-full h-full object-cover"/>
           </div>
-          <div class="p-4">
-            <span class="text-[10px] uppercase tracking-widest text-gold-accent font-semibold">Plate 03 • Appointments</span>
-            <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Burr Walnut Fascia</h4>
-            <p class="text-xs text-silver-text mt-1">Original chronometric instrumentation.</p>
+          <div class="p-3">
+            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 02 • Mascot</span>
+            <h4 class="font-serif text-sm text-ivory font-semibold">Spirit of Ecstasy</h4>
           </div>
         </div>
 
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden group hover:border-gold-accent transition-all duration-300">
-          <div class="aspect-[4/3] overflow-hidden">
-            <img src="/images/wheel-detail.jpg" alt="Plate 04" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
+          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
+            <img src="/images/interior-cockpit.jpg" alt="Plate 03" class="w-full h-full object-cover"/>
           </div>
-          <div class="p-4">
-            <span class="text-[10px] uppercase tracking-widest text-gold-accent font-semibold">Plate 04 • Mechanical</span>
-            <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Continental Chassis</h4>
-            <p class="text-xs text-silver-text mt-1">144-inch frame with friction servo drums.</p>
+          <div class="p-3">
+            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 03 • Cockpit</span>
+            <h4 class="font-serif text-sm text-ivory font-semibold">Burr Walnut Fascia</h4>
+          </div>
+        </div>
+
+        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
+          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
+            <img src="/images/exterior-front.jpg" alt="Plate 04" class="w-full h-full object-cover"/>
+          </div>
+          <div class="p-3">
+            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 04 • Front</span>
+            <h4 class="font-serif text-sm text-ivory font-semibold">Derby Radiator</h4>
           </div>
         </div>
       </div>
     </section>
 
     <!-- TECHNICAL SPECIFICATIONS ACCORDION -->
-    <section id="specifications" class="py-20 bg-night-card/50 border-y border-gold-accent/15">
+    <section id="specifications" class="py-16 bg-night-card/50 border-y border-gold-accent/15">
       <div class="max-w-4xl mx-auto px-6">
-        <div class="text-center mb-12">
+        <div class="text-center mb-10">
           <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Technical Dossier</span>
-          <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Engineering & Coachwork</h2>
+          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase font-semibold">Engineering & Coachwork</h2>
         </div>
 
         <div class="space-y-4" id="accordion-group">
@@ -293,7 +524,7 @@
           <!-- Accordion Item 1 -->
           <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
             <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="true">
-              <span class="font-serif text-xl text-ivory font-medium">01 • Engine & Mechanical Architecture</span>
+              <span class="font-serif text-lg text-ivory font-medium">01 • Engine & Mechanical Architecture</span>
               <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300 rotate-180">expand_more</span>
             </button>
             <div class="acc-body px-6 pb-6 pt-2 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
@@ -321,7 +552,7 @@
           <!-- Accordion Item 2 -->
           <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
             <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="false">
-              <span class="font-serif text-xl text-ivory font-medium">02 • Barker & Co. Coachwork</span>
+              <span class="font-serif text-lg text-ivory font-medium">02 • Barker & Co. Coachwork</span>
               <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300">expand_more</span>
             </button>
             <div class="acc-body hidden px-6 pb-6 pt-2 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
@@ -332,7 +563,7 @@
           <!-- Accordion Item 3 -->
           <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
             <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="false">
-              <span class="font-serif text-xl text-ivory font-medium">03 • Cabin Furnishings & Bespoke Detail</span>
+              <span class="font-serif text-lg text-ivory font-medium">03 • Cabin Furnishings & Bespoke Detail</span>
               <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300">expand_more</span>
             </button>
             <div class="acc-body hidden px-6 pb-6 pt-2 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
@@ -345,19 +576,19 @@
     </section>
 
     <!-- PROVENANCE TIMELINE SECTION -->
-    <section id="provenance" class="py-20 max-w-4xl mx-auto px-6">
-      <div class="text-center mb-16">
+    <section id="provenance" class="py-16 max-w-4xl mx-auto px-6">
+      <div class="text-center mb-12">
         <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Custodianship</span>
-        <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Documented Provenance Chain</h2>
+        <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase font-semibold">Documented Provenance Chain</h2>
       </div>
 
-      <div class="relative border-l border-gold-accent/30 ml-4 md:ml-32 space-y-12">
+      <div class="relative border-l border-gold-accent/30 ml-4 md:ml-32 space-y-10">
         
         <!-- Timeline Item 1 -->
         <div class="relative pl-8">
           <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gold-accent border-4 border-night-deep"></div>
           <span class="text-xs font-semibold uppercase tracking-widest text-gold-accent">1932 — 1954</span>
-          <h4 class="font-serif text-xl text-ivory font-semibold mt-1">Sir Arthur Guinness</h4>
+          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Sir Arthur Guinness</h4>
           <p class="text-sm text-silver-text mt-1">Commissioned via Barker & Co. London. Registered GG-7801 for transcontinental touring to Cap d'Antibes.</p>
         </div>
 
@@ -365,7 +596,7 @@
         <div class="relative pl-8">
           <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-night-surface border-4 border-gold-accent/60"></div>
           <span class="text-xs font-semibold uppercase tracking-widest text-gold-accent">1954 — 1982</span>
-          <h4 class="font-serif text-xl text-ivory font-semibold mt-1">Baron van Tuyll • Geneva, Switzerland</h4>
+          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Baron van Tuyll • Geneva, Switzerland</h4>
           <p class="text-sm text-silver-text mt-1">Preserved in climate-controlled storage and exhibited at the 1968 Geneva Concours d'Elegance.</p>
         </div>
 
@@ -373,7 +604,7 @@
         <div class="relative pl-8">
           <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-night-surface border-4 border-gold-accent/60"></div>
           <span class="text-xs font-semibold uppercase tracking-widest text-gold-accent">1982 — 2011</span>
-          <h4 class="font-serif text-xl text-ivory font-semibold mt-1">Dr. H. Sterling Marque Collection</h4>
+          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Dr. H. Sterling Marque Collection</h4>
           <p class="text-sm text-silver-text mt-1">Maintained in Gloucestershire; featured in Rolls-Royce Enthusiasts' Club (RREC) Golden Jubilee display.</p>
         </div>
 
@@ -381,8 +612,8 @@
         <div class="relative pl-8">
           <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gold-light border-4 border-night-deep animate-pulse"></div>
           <span class="text-xs font-semibold uppercase tracking-widest text-gold-light">Present Day</span>
-          <h4 class="font-serif text-xl text-ivory font-semibold mt-1">The Sovereign Archive Sanctum</h4>
-          <p class="text-sm text-silver-text mt-1">Offered exclusively via private treaty with complete matching numbers audit and original factory ledgers.</p>
+          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">The Sovereign Archive Sanctum</h4>
+          <p class="text-sm text-silver-text mt-1">Offered exclusively via private treaty with complete matching numbers audit and verified documentation.</p>
         </div>
 
       </div>
@@ -393,58 +624,74 @@
       <div class="max-w-3xl mx-auto px-6">
         <div class="text-center mb-10">
           <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Confidential Acquisition</span>
-          <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Book a Private Viewing</h2>
+          <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Book a Private Viewing or Acquisition</h2>
           <p class="text-sm text-silver-text mt-2 max-w-lg mx-auto">
-            Chassis 78JS viewings are arranged strictly by appointment at our Mayfair Salon, Goodwood, or via international presentation.
+            Viewings and acquisitions are conducted by appointment in Lagos, Abuja, London, or via international delivery.
           </p>
         </div>
 
         <!-- Form Card -->
         <div class="p-8 sm:p-10 rounded-xl bg-night-deep border border-gold-accent/30 shadow-2xl">
           <form id="private-treaty-form" class="space-y-6">
+            
+            <!-- Selected Vehicle Indicator -->
+            <div>
+              <label for="chassis-select" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Vehicle of Interest</label>
+              <select id="chassis-select" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/40 text-gold-accent font-semibold text-sm focus:border-gold-accent focus:outline-none cursor-pointer">
+                <option value="1932 Rolls-Royce Phantom II (₦480,000,000)">1932 Rolls-Royce Phantom II Continental — ₦480,000,000</option>
+                <option value="1936 Bugatti Type 57 (₦620,000,000)">1936 Bugatti Type 57 Galibier — ₦620,000,000</option>
+                <option value="1955 Mercedes-Benz 300 SL (₦420,000,000)">1955 Mercedes-Benz 300 SL Gullwing — ₦420,000,000</option>
+                <option value="1957 BMW 507 Roadster (₦310,000,000)">1957 BMW 507 Roadster — ₦310,000,000</option>
+                <option value="1967 Toyota 2000GT (₦215,000,000)">1967 Toyota 2000GT Coupe — ₦215,000,000</option>
+                <option value="1966 Honda S800 Coupe (₦78,000,000)">1966 Honda S800 Coupe — ₦78,000,000</option>
+                <option value="1993 Lexus LS 400 Heritage (₦92,000,000)">1993 Lexus LS 400 Heritage — ₦92,000,000</option>
+                <option value="Toyota Venza Limited AWD (₦58,000,000)">Toyota Venza Limited AWD — ₦58,000,000</option>
+              </select>
+            </div>
+
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div>
                 <label for="full-name" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Full Name</label>
-                <input type="text" id="full-name" required placeholder="Lord / Mr. Sterling" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
+                <input type="text" id="full-name" required placeholder="Alhaji / Chief / Mr. Adebayo" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
               </div>
               <div>
                 <label for="email" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Email Address</label>
-                <input type="email" id="email" required placeholder="client@sovereign.com" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
+                <input type="email" id="email" required placeholder="client@domain.com" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
               </div>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div>
                 <label for="phone" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Phone Number</label>
-                <input type="tel" id="phone" required placeholder="+44 20 7946 0912" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
+                <input type="tel" id="phone" required placeholder="+234 800 000 0000" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
               </div>
               <div>
-                <label for="atelier-salon" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Preferred Location</label>
+                <label for="atelier-salon" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Preferred Viewing Location</label>
                 <select id="atelier-salon" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none cursor-pointer">
-                  <option value="mayfair">Mayfair Salon, London</option>
-                  <option value="goodwood">Goodwood House Grounds</option>
-                  <option value="geneva">Geneva Quai Salon</option>
-                  <option value="monterey">Monterey Peninsula</option>
+                  <option value="lagos">Ikoyi Salon, Lagos (Nigeria)</option>
+                  <option value="abuja">Maitama Sanctuary, Abuja (Nigeria)</option>
+                  <option value="mayfair">Mayfair Salon, London (UK)</option>
+                  <option value="geneva">Geneva Quai Salon (Switzerland)</option>
                 </select>
               </div>
             </div>
 
             <div>
-              <label for="notes" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Inquiry / Collection Notes</label>
-              <textarea id="notes" rows="3" placeholder="Specify proposed viewing date or collection context..." class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"></textarea>
+              <label for="notes" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Inquiry / Custom Delivery Instructions</label>
+              <textarea id="notes" rows="3" placeholder="Specify preferred currency payment structure (Naira/USD), collection or armored transit requirements..." class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"></textarea>
             </div>
 
             <button type="submit" class="w-full py-4 rounded bg-gold-accent hover:bg-gold-light text-night-deep font-semibold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.25)]">
-              Submit Confidential Viewing Request
+              Submit Inscription for Private Acquisition
             </button>
           </form>
 
           <!-- Success Notification -->
           <div id="form-success-banner" class="hidden text-center py-6">
             <span class="material-symbols-outlined text-gold-accent text-5xl mb-2">verified</span>
-            <h3 class="font-serif text-2xl text-ivory font-semibold">Viewing Inquiry Received</h3>
+            <h3 class="font-serif text-2xl text-ivory font-semibold">Viewing & Acquisition Inscription Received</h3>
             <p class="text-sm text-silver-text mt-2 max-w-md mx-auto">
-              Your inquiry has been encrypted and delivered. Our Senior Custodian will contact you privately within 4 hours.
+              Your inquiry has been encrypted and transmitted. Our Private Treaty Director will contact you discreetly within 4 hours.
             </p>
           </div>
         </div>
@@ -457,12 +704,12 @@
   <footer class="py-12 border-t border-gold-accent/20 bg-night-deep text-silver-text text-xs">
     <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-3">
-        <span class="font-serif text-lg text-gold-accent font-semibold tracking-widest uppercase">Rolls-Royce</span>
+        <span class="font-serif text-lg text-gold-accent font-semibold tracking-widest uppercase">Sovereign Archive</span>
         <span class="text-silver-text/40">|</span>
-        <span>The Sovereign Archive Sanctum</span>
+        <span>Heritage Motor Car Sanctum</span>
       </div>
       <div>
-        <span>© 2024 Sovereign Archive. RREC Affiliation Record #2941. Strictly Confidential.</span>
+        <span>© 2024 Sovereign Archive. All Rights Reserved. Private treaty acquisitions certified in ₦ (Naira).</span>
       </div>
     </div>
   </footer>
@@ -501,10 +748,10 @@
 
       dots.forEach((dot, i) => {
         if (i === activeIndex) {
-          dot.classList.add('w-6', 'bg-gold-accent');
+          dot.classList.add('w-5', 'bg-gold-accent');
           dot.classList.remove('w-2', 'bg-gold-accent/30');
         } else {
-          dot.classList.remove('w-6', 'bg-gold-accent');
+          dot.classList.remove('w-5', 'bg-gold-accent');
           dot.classList.add('w-2', 'bg-gold-accent/30');
         }
       });
@@ -525,32 +772,65 @@
     dots.forEach((dot, i) => dot.addEventListener('click', () => goToSlide(i)));
     thumbs.forEach((thumb, i) => thumb.addEventListener('click', () => goToSlide(i)));
 
-    // 3. Audio Mock Toggle
-    const audioBtn = document.getElementById('audio-toggle-btn');
-    let isPlaying = false;
-    audioBtn?.addEventListener('click', () => {
-      isPlaying = !isPlaying;
-      document.getElementById('audio-icon').textContent = isPlaying ? 'pause' : 'volume_up';
-      document.getElementById('audio-text').textContent = isPlaying ? 'Playing Engine Idle...' : 'Audio: Engine Idle';
-      audioBtn.classList.toggle('border-gold-accent', isPlaying);
+    // 3. Showroom Brand Filter Mechanics
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const carCards = document.querySelectorAll('.car-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-gold-accent', 'text-night-deep');
+          b.classList.add('bg-night-card', 'text-silver-text');
+        });
+        btn.classList.add('bg-gold-accent', 'text-night-deep');
+        btn.classList.remove('bg-night-card', 'text-silver-text');
+
+        const selectedBrand = btn.getAttribute('data-brand');
+        carCards.forEach(card => {
+          const cardBrand = card.getAttribute('data-brand');
+          if (selectedBrand === 'all' || cardBrand === selectedBrand) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
     });
 
-    // 4. Form Submission with Supabase
+    // 4. Quick Inquire Button Handler (Smooth scroll & pre-fill)
+    const chassisSelect = document.getElementById('chassis-select');
+    document.querySelectorAll('.inquire-car-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const model = btn.getAttribute('data-model');
+        if (chassisSelect && model) {
+          // Select corresponding option or set value
+          for (let i = 0; i < chassisSelect.options.length; i++) {
+            if (chassisSelect.options[i].value === model || chassisSelect.options[i].text.includes(model.split(' ')[1])) {
+              chassisSelect.selectedIndex = i;
+              break;
+            }
+          }
+        }
+        document.getElementById('inquiry')?.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // 5. Form Submission with Supabase
     const form = document.getElementById('private-treaty-form');
     form?.addEventListener('submit', async (e) => {
       e.preventDefault();
       const btn = form.querySelector('button[type="submit"]');
       btn.disabled = true;
-      btn.textContent = 'Transmitting...';
+      btn.textContent = 'Transmitting Inscription...';
 
       const payload = {
-        reference_id: 'RR-' + Math.floor(1000 + Math.random() * 9000),
+        reference_id: 'NG-' + Math.floor(1000 + Math.random() * 9000),
         full_name: document.getElementById('full-name').value,
         email: document.getElementById('email').value,
         phone: document.getElementById('phone').value,
         atelier_salon: document.getElementById('atelier-salon').value,
         notes: document.getElementById('notes').value,
-        chassis_reference: '1932 Rolls-Royce Phantom II Continental (78JS)'
+        chassis_reference: chassisSelect ? chassisSelect.value : '1932 Rolls-Royce Phantom II'
       };
 
       if (window.supabaseClient) {
