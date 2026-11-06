@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/prd", "destination": "/stitch_vintage_rolls_royce_brand_website/prd.html" }
+  ]
+}
