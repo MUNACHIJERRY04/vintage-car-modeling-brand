@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>The Sovereign Archive | Classic & Vintage Motor Cars</title>
+  <title>The Sovereign Archive | Classic & Modern Luxury Motor Cars</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
@@ -55,31 +55,24 @@
   <!-- TOP NAVIGATION HEADER -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-night-deep/90 backdrop-blur-md border-b border-gold-accent/20">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-      <!-- Brand Logo -->
       <a href="#" class="flex items-center gap-3">
         <span class="material-symbols-outlined text-gold-accent text-3xl">directions_car</span>
         <div class="flex flex-col">
-          <span class="font-serif text-2xl tracking-[0.2em] uppercase text-gold-accent font-semibold">Sovereign Archive</span>
-          <span class="text-[10px] tracking-[0.25em] uppercase text-silver-text">Luxury & Classic Collection</span>
+          <span class="font-serif text-2xl tracking-[0.25em] uppercase text-gold-accent font-semibold">Sovereign Archive</span>
+          <span class="text-[10px] tracking-[0.3em] uppercase text-silver-text">Grand Tourer Sanctum</span>
         </div>
       </a>
 
-      <!-- Navigation Links -->
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-widest uppercase">
+      <nav class="hidden md:flex items-center gap-8 text-xs font-medium tracking-[0.2em] uppercase">
+        <a href="#carousel-section" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Featured Carousel</a>
         <a href="#inventory" class="text-gold-light hover:text-gold-accent transition-colors duration-200">Showroom (₦)</a>
-        <a href="#gallery" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Rolls-Royce Feature</a>
-        <a href="#specifications" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Technical</a>
-        <a href="#provenance" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Provenance</a>
+        <a href="#accordion-section" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Brand Dossiers</a>
         <a href="#inquiry" class="text-silver-text hover:text-gold-accent transition-colors duration-200">Acquisition</a>
       </nav>
 
-      <!-- Action Button -->
       <div class="flex items-center gap-4">
-        <a href="#inventory" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded border border-gold-accent/40 bg-gold-accent/10 hover:bg-gold-accent hover:text-night-deep text-gold-accent text-xs font-semibold tracking-widest uppercase transition-all duration-300">
-          View Showroom
-        </a>
         <a href="#inquiry" class="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-gold-accent hover:bg-gold-light text-night-deep text-xs font-semibold tracking-widest uppercase transition-all duration-300 shadow-[0_0_15px_rgba(212,175,55,0.2)]">
-          Inquire
+          Inquire Now
         </a>
       </div>
     </div>
@@ -87,611 +80,1009 @@
 
   <main class="pt-20">
 
-    <!-- HERO SECTION (Sleek, well-proportioned height) -->
-    <section class="relative min-h-[75vh] flex items-center justify-center border-b border-gold-accent/15 overflow-hidden">
-      <!-- Background Image with Overlay -->
+    <!-- HERO SECTION (Ancient 1960s luxury brochure typography: spaced out, moderate font size, elegant) -->
+    <section class="relative min-h-[65vh] flex items-center justify-center border-b border-gold-accent/15 overflow-hidden">
       <div class="absolute inset-0 z-0">
         <img 
           src="/images/hero-phantom.jpg" 
-          alt="1932 Rolls-Royce Phantom II Continental" 
-          class="w-full h-full object-cover object-center brightness-75 scale-100 transition-transform duration-1000"
+          alt="Vintage Rolls-Royce" 
+          class="w-full h-full object-cover object-center brightness-70 scale-100"
           loading="eager"
         />
-        <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/60 to-night-deep/40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/70 to-night-deep/50"></div>
       </div>
 
-      <!-- Hero Content -->
-      <div class="relative z-10 max-w-4xl mx-auto px-6 text-center py-12 flex flex-col items-center">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-gold-accent/30 bg-night-deep/80 backdrop-blur-sm mb-4">
-          <span class="w-2 h-2 rounded-full bg-gold-accent animate-pulse"></span>
-          <span class="text-xs uppercase tracking-[0.2em] text-gold-light font-medium">Bespoke Classic & Vintage Motor Cars</span>
+      <div class="relative z-10 max-w-4xl mx-auto px-6 text-center py-16 flex flex-col items-center">
+        <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full border border-gold-accent/30 bg-night-deep/80 backdrop-blur-sm mb-6">
+          <span class="w-1.5 h-1.5 rounded-full bg-gold-accent animate-pulse"></span>
+          <span class="text-[11px] uppercase tracking-[0.3em] text-gold-light font-medium">Est. 1960 • The Purveyor of Rare Motor Cars</span>
         </div>
 
-        <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl font-bold uppercase tracking-wide text-ivory leading-tight mb-3">
-          Timeless Marque<br/>
-          <span class="italic font-normal text-gold-accent">Acquisition & Archives</span>
+        <!-- Ancient 1960s Vibe Headline: Spaced out, reduced font size, refined letter-spacing -->
+        <h1 class="font-serif text-2xl sm:text-3xl md:text-4xl text-ivory uppercase tracking-[0.22em] font-normal leading-relaxed sm:leading-loose mb-6">
+          H E R I T A G E &ensp;&amp;&ensp; M O D E R N<br/>
+          <span class="italic font-normal text-gold-accent tracking-[0.25em] text-xl sm:text-2xl md:text-3xl block mt-2">Distinguished Marque Registry</span>
         </h1>
 
-        <p class="max-w-xl text-sm sm:text-base text-silver-text font-light leading-relaxed mb-6">
-          Curated historical masterworks and celebrated classics available for private acquisition in Nigeria and worldwide.
+        <p class="max-w-xl text-xs sm:text-sm text-silver-text font-light tracking-[0.12em] leading-relaxed mb-8">
+          A curatorial collection of celebrated vintage coachworks and modern flagship automobiles, certified for acquisition in Nigerian Naira (₦).
         </p>
 
-        <!-- CTA Group -->
         <div class="flex flex-wrap items-center justify-center gap-4">
-          <a href="#inventory" class="px-7 py-3 rounded bg-gold-accent hover:bg-gold-light text-night-deep font-semibold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.3)]">
-            Explore Showroom in Naira (₦)
+          <a href="#carousel-section" class="px-6 py-2.5 rounded bg-gold-accent hover:bg-gold-light text-night-deep font-semibold text-xs uppercase tracking-[0.18em] transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.25)]">
+            Explore Carousel
           </a>
-          <a href="#inquiry" class="px-6 py-3 rounded border border-silver-text/30 bg-night-card/70 hover:bg-night-surface text-ivory text-xs uppercase tracking-widest transition-all duration-300">
-            Book Private Treaty
+          <a href="#inventory" class="px-6 py-2.5 rounded border border-silver-text/30 bg-night-card/70 hover:bg-night-surface text-ivory text-xs uppercase tracking-[0.18em] transition-all duration-300">
+            View All Showroom Models (₦)
           </a>
         </div>
       </div>
     </section>
 
-    <!-- CLASSIC SHOWROOM & INVENTORY IN NAIRA (₦) -->
-    <section id="inventory" class="py-20 max-w-7xl mx-auto px-6">
-      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+    <!-- CAROUSEL FEATURE SECTION (Not too big, compact height ~380px, displaying both classic & modern models with price in Naira) -->
+    <section id="carousel-section" class="py-16 max-w-5xl mx-auto px-6">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-6 gap-4">
         <div>
-          <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Private Treaty Collection</span>
-          <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Classic Showroom • Available for Purchase</h2>
-          <p class="text-sm text-silver-text mt-1">All pricing certified in Nigerian Naira (₦). Fully documented provenance and road-certified.</p>
+          <span class="text-[11px] uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-1">Interactive Exhibition</span>
+          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase tracking-[0.15em] font-semibold">Featured Fleet Carousel</h2>
+          <p class="text-xs text-silver-text tracking-wide mt-1">Navigate through landmark classic and contemporary grand tourers with certified Naira price tags.</p>
         </div>
-      </div>
-
-      <!-- Filter Buttons -->
-      <div class="flex flex-wrap items-center gap-2 mb-10 pb-4 border-b border-gold-accent/20" id="filter-container">
-        <button class="filter-btn active px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-gold-accent text-night-deep transition-all" data-brand="all">All Models</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Rolls-Royce">Rolls-Royce</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Mercedes-Benz">Mercedes-Benz</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="BMW">BMW</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Bugatti">Bugatti</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Toyota">Toyota & Venza</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Honda">Honda</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Lexus">Lexus</button>
-      </div>
-
-      <!-- Inventory Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="inventory-grid">
-
-        <!-- 1. Rolls-Royce Phantom II -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Rolls-Royce">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/hero-phantom.jpg" alt="1932 Rolls-Royce Phantom II" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Rolls-Royce</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">1932 • Continental Saloon</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Rolls-Royce Phantom II</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">Barker coachwork, 7.7L OHV Inline-6, 144-inch chassis, RREC Certificate #2941.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦480,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1932 Rolls-Royce Phantom II (₦480,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-        <!-- 2. Bugatti Type 57 -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Bugatti">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/bugatti-type57.jpg" alt="1936 Bugatti Type 57" class="w-full h-full object-cover"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Bugatti</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">1936 • Molsheim Legend</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Bugatti Type 57 Galibier</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">3.3L Dual Overhead Cam Inline-8, Jean Bugatti styling, factory wire-wheels.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦620,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1936 Bugatti Type 57 (₦620,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-        <!-- 3. Mercedes-Benz 300 SL Gullwing -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Mercedes-Benz">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/mercedes-300sl.jpg" alt="1955 Mercedes-Benz 300 SL" class="w-full h-full object-cover"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Mercedes-Benz</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">1955 • Iconic Gullwing</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Mercedes-Benz 300 SL</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">Direct-injected 3.0L M198 engine, tubular spaceframe, upward-opening doors.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦420,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1955 Mercedes-Benz 300 SL Gullwing (₦420,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-        <!-- 4. BMW 507 Roadster -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="BMW">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/bmw-507.jpg" alt="1957 BMW 507" class="w-full h-full object-cover"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">BMW</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">1957 • Series II Roadster</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">BMW 507 Roadster</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">3.2L all-aluminum V8, Albrecht von Goertz coachwork, dual Zenith carbs.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦310,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1957 BMW 507 Roadster (₦310,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-        <!-- 5. Toyota 2000GT -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Toyota">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/toyota-2000gt.jpg" alt="1967 Toyota 2000GT" class="w-full h-full object-cover"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Toyota</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">1967 • Grand Tourer</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Toyota 2000GT Coupe</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">Yamaha-tuned 2.0L DOHC Inline-6, rosewood dashboard, limited run 351 units.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦215,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1967 Toyota 2000GT (₦215,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-        <!-- 6. Honda S800 -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Honda">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/honda-s800.jpg" alt="1966 Honda S800" class="w-full h-full object-cover"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Honda</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">1966 • High-Rev Classic</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Honda S800 Coupe</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">791cc DOHC 4-cylinder engine, 10,000 RPM redline, Soichiro Honda engineering.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦78,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1966 Honda S800 Coupe (₦78,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-        <!-- 7. Lexus LS 400 -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Lexus">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/lexus-ls400.jpg" alt="1993 Lexus LS 400" class="w-full h-full object-cover"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Lexus</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">1993 • Modern Classic V8</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Lexus LS 400 Heritage</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">Legendary 1UZ-FE 4.0L V8, whisper-quiet cabin, California Walnut wood appointments.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦92,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="1993 Lexus LS 400 Heritage (₦92,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-        <!-- 8. Toyota Venza Limited -->
-        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] transition-all duration-300" data-brand="Toyota">
-          <div>
-            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
-              <img src="/images/toyota-venza.jpg" alt="Toyota Venza Limited" class="w-full h-full object-cover"/>
-              <span class="absolute top-3 left-3 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Toyota / Venza</span>
-              <span class="absolute top-3 right-3 bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded border border-emerald-500/30">Available</span>
-            </div>
-            <div class="p-5">
-              <span class="text-xs text-silver-text uppercase tracking-widest">2021 • Bespoke Luxury Hybrid</span>
-              <h3 class="font-serif text-xl text-ivory font-semibold mt-1">Toyota Venza Limited AWD</h3>
-              <p class="text-xs text-silver-text mt-2 line-clamp-2">Electronic On-Demand AWD, Star Gaze electrochromic panoramic glass roof, JBL Audio.</p>
-              
-              <div class="mt-4 pt-4 border-t border-gold-accent/15 flex items-baseline justify-between">
-                <div>
-                  <span class="text-[10px] text-silver-text uppercase tracking-wider block">Acquisition Price</span>
-                  <span class="text-lg font-bold text-gold-accent">₦58,000,000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="p-5 pt-0">
-            <button class="inquire-car-btn w-full py-2.5 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-widest border border-gold-accent/40 transition-all duration-200" data-model="Toyota Venza Limited AWD (₦58,000,000)">
-              Inquire / Purchase
-            </button>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- CURATED ROLLS-ROYCE GALLERY (Well-proportioned, compact display) -->
-    <section id="gallery" class="py-16 max-w-5xl mx-auto px-6 border-t border-gold-accent/20">
-      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
-        <div>
-          <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-1">Featured Masterpiece</span>
-          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase font-semibold">1932 Rolls-Royce Phantom II Continental</h2>
-        </div>
-        <!-- Carousel Controls -->
+        <!-- Controls -->
         <div class="flex items-center gap-3">
-          <button id="carousel-prev" aria-label="Previous" class="w-9 h-9 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
+          <button id="carousel-prev" aria-label="Previous Car" class="w-9 h-9 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
             <span class="material-symbols-outlined text-sm">arrow_back</span>
           </button>
-          <div class="flex items-center gap-1.5 px-2">
-            <button class="carousel-dot w-5 h-1.5 rounded-full bg-gold-accent transition-all" data-slide="0"></button>
-            <button class="carousel-dot w-2 h-1.5 rounded-full bg-gold-accent/30 transition-all" data-slide="1"></button>
-            <button class="carousel-dot w-2 h-1.5 rounded-full bg-gold-accent/30 transition-all" data-slide="2"></button>
-            <button class="carousel-dot w-2 h-1.5 rounded-full bg-gold-accent/30 transition-all" data-slide="3"></button>
-          </div>
-          <button id="carousel-next" aria-label="Next" class="w-9 h-9 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
+          <div class="flex items-center gap-1.5 px-1" id="carousel-dots-container"></div>
+          <button id="carousel-next" aria-label="Next Car" class="w-9 h-9 rounded-full border border-gold-accent/40 bg-night-card text-gold-accent hover:bg-gold-accent hover:text-night-deep transition-all flex items-center justify-center">
             <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
         </div>
       </div>
 
-      <!-- Carousel Viewer (Max height 420px for a refined, compact display) -->
-      <div class="relative overflow-hidden rounded-xl border border-gold-accent/25 bg-night-card shadow-2xl">
+      <!-- Carousel Viewer (Compact height: max-h-[380px]) -->
+      <div class="relative overflow-hidden rounded-xl border border-gold-accent/30 bg-night-card shadow-2xl">
         <div id="carousel-track" class="flex transition-transform duration-500 ease-out" style="transform: translateX(0%);">
-          
-          <!-- Slide 0: Stance -->
-          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
-            <img src="/images/hero-phantom.jpg" alt="Phantom II Exterior" class="w-full h-full object-cover object-center"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-5 left-5 right-5">
-              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Chassis 78JS</span>
-              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">Exterior Stance & Midnight Coachwork</h3>
+
+          <!-- 1. Rolls-Royce Vintage -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/hero-phantom.jpg" alt="Rolls-Royce Phantom II" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Classic • Rolls-Royce</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">1932 Continental Saloon by Barker</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">Rolls-Royce Phantom II</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦480,000,000</span>
+              </div>
             </div>
           </div>
 
-          <!-- Slide 1: Mascot -->
-          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
-            <img src="/images/spirit-of-ecstasy.jpg" alt="Spirit of Ecstasy Mascot" class="w-full h-full object-cover object-center"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-5 left-5 right-5">
-              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Charles Sykes Bronze</span>
-              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">The Spirit of Ecstasy Mascot</h3>
+          <!-- 2. Rolls-Royce Modern -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/modern-rolls-royce.jpg" alt="Modern Rolls-Royce Phantom VIII" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Modern • Rolls-Royce</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">2024 Extended Wheelbase 6.75L Twin-Turbo V12</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">Rolls-Royce Phantom VIII</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦650,000,000</span>
+              </div>
             </div>
           </div>
 
-          <!-- Slide 2: Interior -->
-          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
-            <img src="/images/interior-cockpit.jpg" alt="Burr Walnut Dashboard and Cockpit" class="w-full h-full object-cover object-center"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-5 left-5 right-5">
-              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Hand-Selected Veneers</span>
-              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">Burr Walnut Instrument Fascia & Cockpit</h3>
+          <!-- 3. Mercedes-Benz Classic -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/mercedes-300sl.jpg" alt="Mercedes-Benz 300 SL Gullwing" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Classic • Mercedes-Benz</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">1955 Tubular Spaceframe Coupe</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">Mercedes-Benz 300 SL Gullwing</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦420,000,000</span>
+              </div>
             </div>
           </div>
 
-          <!-- Slide 3: Front Temple Radiator -->
-          <div class="min-w-full relative aspect-[16/9] max-h-[420px] bg-night-deep">
-            <img src="/images/exterior-front.jpg" alt="Classical Temple Radiator" class="w-full h-full object-cover object-center"/>
-            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/20 to-transparent"></div>
-            <div class="absolute bottom-5 left-5 right-5">
-              <span class="text-[11px] uppercase tracking-widest text-gold-accent font-semibold">Derby Craftsmanship</span>
-              <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">Temple Radiator Shell & Lucas P100 Headlamps</h3>
+          <!-- 4. Mercedes-Benz Modern -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/modern-mercedes-g63.jpg" alt="Mercedes-AMG G 63" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Modern • Mercedes-Benz</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">2024 Bi-Turbo 4.0L V8 577HP Edition</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">Mercedes-AMG G 63</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦380,000,000</span>
+              </div>
             </div>
           </div>
 
-        </div>
-      </div>
+          <!-- 5. Bugatti Chiron Modern -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/modern-bugatti-chiron.jpg" alt="Bugatti Chiron" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Modern • Bugatti</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">8.0L Quad-Turbo W16 • 1500 HP Hypercar</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">Bugatti Chiron Super Sport</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦4,500,000,000</span>
+              </div>
+            </div>
+          </div>
 
-      <!-- Thumbnail Preview Strip (Compact 14-16 height) -->
-      <div class="grid grid-cols-4 gap-3 mt-3">
-        <button class="thumb-btn h-14 sm:h-16 rounded border-2 border-gold-accent overflow-hidden transition-all opacity-100" data-index="0">
-          <img src="/images/hero-phantom.jpg" class="w-full h-full object-cover" alt="Thumb 1 - Stance"/>
-        </button>
-        <button class="thumb-btn h-14 sm:h-16 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="1">
-          <img src="/images/spirit-of-ecstasy.jpg" class="w-full h-full object-cover" alt="Thumb 2 - Mascot"/>
-        </button>
-        <button class="thumb-btn h-14 sm:h-16 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="2">
-          <img src="/images/interior-cockpit.jpg" class="w-full h-full object-cover" alt="Thumb 3 - Interior"/>
-        </button>
-        <button class="thumb-btn h-14 sm:h-16 rounded border border-gold-accent/20 overflow-hidden transition-all opacity-60 hover:opacity-100" data-index="3">
-          <img src="/images/exterior-front.jpg" class="w-full h-full object-cover" alt="Thumb 4 - Radiator"/>
-        </button>
-      </div>
+          <!-- 6. BMW Modern -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/modern-bmw-7series.jpg" alt="BMW 7-Series" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Modern • BMW</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">2024 Flagship Executive Sedan • Theatre Screen</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">BMW 760i xDrive</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦260,000,000</span>
+              </div>
+            </div>
+          </div>
 
-      <!-- 4-Card Macro Grid (Compact aspect-[16/10], max height 160px) -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
-          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
-            <img src="/images/hero-phantom.jpg" alt="Plate 01" class="w-full h-full object-cover"/>
+          <!-- 7. Toyota Land Cruiser 300 Modern -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/modern-toyota-lc300.jpg" alt="Toyota Land Cruiser 300" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Modern • Toyota</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">2024 GR Sport 3.5L Twin-Turbo V6 AWD</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">Toyota Land Cruiser 300</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦185,000,000</span>
+              </div>
+            </div>
           </div>
-          <div class="p-3">
-            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 01 • Stance</span>
-            <h4 class="font-serif text-sm text-ivory font-semibold">Barker Saloon</h4>
-          </div>
-        </div>
 
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
-          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
-            <img src="/images/spirit-of-ecstasy.jpg" alt="Plate 02" class="w-full h-full object-cover"/>
+          <!-- 8. Lexus LX 600 Modern -->
+          <div class="carousel-slide min-w-full relative aspect-[16/9] max-h-[380px] bg-night-deep">
+            <img src="/images/modern-lexus-lx600.jpg" alt="Lexus LX 600" class="w-full h-full object-cover object-center"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-night-deep via-night-deep/40 to-transparent"></div>
+            <div class="absolute top-4 left-4">
+              <span class="bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded">Modern • Lexus</span>
+            </div>
+            <div class="absolute bottom-5 left-5 right-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <span class="text-[11px] text-silver-text uppercase tracking-widest block">2024 Ultra Luxury VIP 4-Seat Lounge</span>
+                <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold tracking-wide">Lexus LX 600 F-Sport</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-[10px] text-silver-text uppercase tracking-wider block">Price in Naira</span>
+                <span class="text-xl font-bold text-gold-accent">₦240,000,000</span>
+              </div>
+            </div>
           </div>
-          <div class="p-3">
-            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 02 • Mascot</span>
-            <h4 class="font-serif text-sm text-ivory font-semibold">Spirit of Ecstasy</h4>
-          </div>
-        </div>
 
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
-          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
-            <img src="/images/interior-cockpit.jpg" alt="Plate 03" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-3">
-            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 03 • Cockpit</span>
-            <h4 class="font-serif text-sm text-ivory font-semibold">Burr Walnut Fascia</h4>
-          </div>
-        </div>
-
-        <div class="rounded-lg bg-night-card border border-gold-accent/20 overflow-hidden">
-          <div class="aspect-[16/10] max-h-[140px] overflow-hidden">
-            <img src="/images/exterior-front.jpg" alt="Plate 04" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-3">
-            <span class="text-[9px] uppercase tracking-widest text-gold-accent font-semibold">Plate 04 • Front</span>
-            <h4 class="font-serif text-sm text-ivory font-semibold">Derby Radiator</h4>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- TECHNICAL SPECIFICATIONS ACCORDION -->
-    <section id="specifications" class="py-16 bg-night-card/50 border-y border-gold-accent/15">
+    <!-- COMPLETE SHOWROOM (Classic & Modern Vehicles, each car brand represented with price in Naira) -->
+    <section id="inventory" class="py-16 max-w-7xl mx-auto px-6 border-t border-gold-accent/20">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+        <div>
+          <span class="text-[11px] uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-1">Showroom & Acquisition</span>
+          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase tracking-[0.15em] font-semibold">Classic & Modern Registry (₦)</h2>
+          <p class="text-xs text-silver-text mt-1">Every car brand presented with authenticated provenance and verified Naira acquisition pricing.</p>
+        </div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center gap-2 mb-8 pb-3 border-b border-gold-accent/20" id="filter-container">
+        <button class="filter-btn active px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-gold-accent text-night-deep transition-all" data-brand="all">All Fleet</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Rolls-Royce">Rolls-Royce</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Mercedes-Benz">Mercedes-Benz</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="BMW">BMW</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Bugatti">Bugatti</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Toyota">Toyota</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Venza">Venza</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Honda">Honda</button>
+        <button class="filter-btn px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-night-card hover:bg-night-surface text-silver-text hover:text-ivory border border-gold-accent/20 transition-all" data-brand="Lexus">Lexus</button>
+      </div>
+
+      <!-- Inventory Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="inventory-grid">
+
+        <!-- 1. Rolls-Royce Classic -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Rolls-Royce">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/hero-phantom.jpg" alt="1932 Rolls-Royce" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Classic Rolls-Royce</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">1932 • Continental Saloon</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Rolls-Royce Phantom II</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Barker hand-formed coachwork, 7.7L Inline-6 engine.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦480,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="1932 Rolls-Royce Phantom II (₦480,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 2. Rolls-Royce Modern -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Rolls-Royce">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-rolls-royce.jpg" alt="2024 Rolls-Royce Phantom VIII" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern Rolls-Royce</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • Bespoke Flagship</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Rolls-Royce Phantom VIII</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">6.75L Twin-Turbo V12, Starlight Headliner, Gallery Glass.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦650,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 Rolls-Royce Phantom VIII (₦650,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 3. Mercedes-Benz Classic -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Mercedes-Benz">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/mercedes-300sl.jpg" alt="1955 Mercedes-Benz 300 SL" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Classic Mercedes-Benz</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">1955 • Gullwing Coupe</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Mercedes-Benz 300 SL</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Iconic upward gullwing doors, 3.0L M198 direct injection.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦420,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="1955 Mercedes-Benz 300 SL (₦420,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 4. Mercedes-Benz Modern -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Mercedes-Benz">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-mercedes-g63.jpg" alt="2024 Mercedes-AMG G 63" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern Mercedes-Benz</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • AMG Performance SUV</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Mercedes-AMG G 63</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Handcrafted 4.0L Bi-Turbo V8, 577HP, carbon trim.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦380,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 Mercedes-AMG G 63 (₦380,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 5. BMW Classic -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="BMW">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/bmw-507.jpg" alt="1957 BMW 507" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Classic BMW</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">1957 • Series II Roadster</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">BMW 507 Roadster</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Albrecht von Goertz design, 3.2L all-aluminum V8.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦310,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="1957 BMW 507 Roadster (₦310,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 6. BMW Modern -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="BMW">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-bmw-7series.jpg" alt="2024 BMW 760i" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern BMW</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • G70 Flagship Saloon</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">BMW 760i xDrive</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">4.4L TwinPower V8, 31.3-inch 8K Theatre Display.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦260,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 BMW 760i (₦260,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 7. Bugatti Classic -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Bugatti">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/bugatti-type57.jpg" alt="1936 Bugatti Type 57" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Classic Bugatti</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">1936 • Molsheim Masterwork</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Bugatti Type 57</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">3.3L Dual Overhead Cam Inline-8, Jean Bugatti coachwork.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦620,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="1936 Bugatti Type 57 (₦620,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 8. Bugatti Modern -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Bugatti">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-bugatti-chiron.jpg" alt="2024 Bugatti Chiron" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern Bugatti</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • Quad-Turbo Hypercar</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Bugatti Chiron Super Sport</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">8.0L W16, 1500 Horsepower, carbon monocoque.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦4,500,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 Bugatti Chiron Super Sport (₦4,500,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 9. Toyota Classic -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Toyota">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/toyota-2000gt.jpg" alt="1967 Toyota 2000GT" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Classic Toyota</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">1967 • Grand Tourer</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Toyota 2000GT</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Yamaha 2.0L DOHC Inline-6, rosewood dashboard, James Bond heritage.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦215,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="1967 Toyota 2000GT (₦215,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 10. Toyota Modern -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Toyota">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-toyota-lc300.jpg" alt="2024 Toyota Land Cruiser 300" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern Toyota</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • GR Sport AWD</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Land Cruiser 300 ZX</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">3.5L Twin-Turbo V6, e-KDSS suspension, armored-ready.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦185,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 Toyota Land Cruiser 300 (₦185,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 11. Venza Classic/Touring -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Venza">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/toyota-venza.jpg" alt="Toyota Venza Limited" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Toyota Venza</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2021 • Touring Edition</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Toyota Venza Limited</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Electronic AWD, Star Gaze electrochromic glass roof.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦58,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="Toyota Venza Limited AWD (₦58,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 12. Venza Modern Nightshade -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Venza">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-toyota-venza.jpg" alt="2024 Toyota Venza Nightshade" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern Venza</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • Nightshade Hybrid</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Toyota Venza Nightshade</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Gloss black 19-inch alloys, smoked chrome accents, SofTex interior.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦68,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 Toyota Venza Nightshade (₦68,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 13. Honda Classic -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Honda">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/honda-s800.jpg" alt="1966 Honda S800" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Classic Honda</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">1966 • Coupe</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Honda S800 Coupe</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">791cc DOHC needle-roller bearing crank, 10,000 RPM redline.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦78,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="1966 Honda S800 Coupe (₦78,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 14. Honda Modern -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Honda">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-honda-civic-r.jpg" alt="2024 Honda Civic Type R" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern Honda</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • FL5 Track Master</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Civic Type R (FL5)</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">2.0L VTEC Turbo 315HP, 6-speed manual with rev-matching.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦95,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 Honda Civic Type R (₦95,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 15. Lexus Classic -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Lexus">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/lexus-ls400.jpg" alt="1993 Lexus LS 400" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Classic Lexus</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">1993 • Heritage V8</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Lexus LS 400 Heritage</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">Legendary 1UZ-FE 4.0L V8, California Walnut, whisper silence.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦92,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="1993 Lexus LS 400 Heritage (₦92,000,000)">Inquire</button>
+          </div>
+        </div>
+
+        <!-- 16. Lexus Modern -->
+        <div class="car-card rounded-xl bg-night-card border border-gold-accent/25 overflow-hidden flex flex-col justify-between hover:border-gold-accent transition-all duration-300" data-brand="Lexus">
+          <div>
+            <div class="relative aspect-[16/10] overflow-hidden bg-night-deep">
+              <img src="/images/modern-lexus-lx600.jpg" alt="2024 Lexus LX 600" class="w-full h-full object-cover"/>
+              <span class="absolute top-2.5 left-2.5 bg-night-deep/80 backdrop-blur-sm border border-gold-accent/40 text-gold-accent text-[9px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded">Modern Lexus</span>
+            </div>
+            <div class="p-4">
+              <span class="text-[11px] text-silver-text uppercase tracking-widest">2024 • F-Sport VIP Lounge</span>
+              <h3 class="font-serif text-lg text-ivory font-semibold mt-1">Lexus LX 600 F-Sport</h3>
+              <p class="text-xs text-silver-text mt-1.5 line-clamp-2">3.5L Twin-Turbo V6, Mark Levinson 25-speaker sound.</p>
+              <div class="mt-3 pt-3 border-t border-gold-accent/15 flex items-baseline justify-between">
+                <span class="text-[10px] text-silver-text uppercase">Price</span>
+                <span class="text-base font-bold text-gold-accent">₦240,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 pt-0">
+            <button class="inquire-car-btn w-full py-2 rounded bg-gold-accent/15 hover:bg-gold-accent text-gold-accent hover:text-night-deep text-xs font-semibold uppercase tracking-wider border border-gold-accent/40 transition-all" data-model="2024 Lexus LX 600 F-Sport (₦240,000,000)">Inquire</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACCORDION FEATURE SECTION: Brand & Model Dossiers with Pictures, Specifications & Prices in Naira -->
+    <section id="accordion-section" class="py-16 bg-night-card/50 border-y border-gold-accent/15">
       <div class="max-w-4xl mx-auto px-6">
         <div class="text-center mb-10">
-          <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Technical Dossier</span>
-          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase font-semibold">Engineering & Coachwork</h2>
+          <span class="text-[11px] uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Curatorial Technical Dossiers</span>
+          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase tracking-[0.15em] font-semibold">Brand Portfolios & Price Accordion</h2>
+          <p class="text-xs text-silver-text mt-1">Expand each brand dossier to inspect photographs, mechanical benchmarks, and verified acquisition costs.</p>
         </div>
 
         <div class="space-y-4" id="accordion-group">
           
-          <!-- Accordion Item 1 -->
+          <!-- Accordion Brand 1: Rolls-Royce -->
           <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
             <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="true">
-              <span class="font-serif text-lg text-ivory font-medium">01 • Engine & Mechanical Architecture</span>
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-gold-accent"></span>
+                <span class="font-serif text-lg text-ivory font-medium">Rolls-Royce Motor Cars • Classic & Modern Registry</span>
+              </div>
               <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300 rotate-180">expand_more</span>
             </button>
-            <div class="acc-body px-6 pb-6 pt-2 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <strong class="text-ivory block mb-1">Cylinder Capacity</strong>
-                  7.7-Litre (7,668 cc) Crossflow OHV Inline-6 with dual spark ignition.
+            <div class="acc-body px-6 pb-6 pt-3 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/hero-phantom.jpg" alt="1932 Rolls-Royce" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Classic Masterwork</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">1932 Phantom II Continental</h4>
+                    <p class="text-xs text-silver-text mt-1">7.7L Crossflow OHV Inline-6, Barker sports coachwork, chassis 78JS.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦480,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="1932 Rolls-Royce Phantom II (₦480,000,000)">Inquire →</button>
+                  </div>
                 </div>
-                <div>
-                  <strong class="text-ivory block mb-1">Transmission</strong>
-                  4-speed manual gearbox with synchromesh on 3rd and top gear.
-                </div>
-                <div>
-                  <strong class="text-ivory block mb-1">Chassis</strong>
-                  144-inch short wheelbase Continental frame with underslung rear springs.
-                </div>
-                <div>
-                  <strong class="text-ivory block mb-1">Braking System</strong>
-                  Mechanical friction servo operating on all four drum brakes.
+
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/modern-rolls-royce.jpg" alt="2024 Rolls-Royce" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Modern Flagship</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">2024 Phantom VIII Saloon</h4>
+                    <p class="text-xs text-silver-text mt-1">6.75L Twin-Turbo V12, Architecture of Luxury, bespoke Starlight ceiling.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦650,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="2024 Rolls-Royce Phantom VIII (₦650,000,000)">Inquire →</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Accordion Item 2 -->
+          <!-- Accordion Brand 2: Mercedes-Benz -->
           <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
             <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="false">
-              <span class="font-serif text-lg text-ivory font-medium">02 • Barker & Co. Coachwork</span>
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-silver-text/60"></span>
+                <span class="font-serif text-lg text-ivory font-medium">Mercedes-Benz • 300 SL & AMG G 63</span>
+              </div>
               <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300">expand_more</span>
             </button>
-            <div class="acc-body hidden px-6 pb-6 pt-2 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
-              Hand-beaten aluminium panels formed over seasoned English ash framing. The waistline features Barker’s hallmark sweeping streamline molding, raked windscreen, Lucas P100 headlamps, and twin side-mounted spares.
+            <div class="acc-body hidden px-6 pb-6 pt-3 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/mercedes-300sl.jpg" alt="1955 Mercedes 300 SL" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Classic Milestone</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">1955 Mercedes-Benz 300 SL</h4>
+                    <p class="text-xs text-silver-text mt-1">Direct fuel injection, spaceframe chassis, upward opening gullwing doors.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦420,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="1955 Mercedes-Benz 300 SL (₦420,000,000)">Inquire →</button>
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/modern-mercedes-g63.jpg" alt="2024 Mercedes-AMG G 63" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Modern AMG Performance</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">2024 Mercedes-AMG G 63</h4>
+                    <p class="text-xs text-silver-text mt-1">Hand-built 4.0L Bi-Turbo V8, 577HP, triple locking differentials.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦380,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="2024 Mercedes-AMG G 63 (₦380,000,000)">Inquire →</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <!-- Accordion Item 3 -->
+          <!-- Accordion Brand 3: BMW -->
           <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
             <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="false">
-              <span class="font-serif text-lg text-ivory font-medium">03 • Cabin Furnishings & Bespoke Detail</span>
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-silver-text/60"></span>
+                <span class="font-serif text-lg text-ivory font-medium">BMW • 507 Roadster & 760i xDrive</span>
+              </div>
               <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300">expand_more</span>
             </button>
-            <div class="acc-body hidden px-6 pb-6 pt-2 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
-              Adorned with original Vaumol navy blue leather hides and deep-pile Wilton carpets. Rear compartment conceals twin fold-out burr walnut tables complete with solid sterling silver capped crystal decanters.
+            <div class="acc-body hidden px-6 pb-6 pt-3 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/bmw-507.jpg" alt="1957 BMW 507" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Classic Series II</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">1957 BMW 507 Roadster</h4>
+                    <p class="text-xs text-silver-text mt-1">3.2L all-aluminum V8, dual Zenith carbs, limited production roadster.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦310,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="1957 BMW 507 Roadster (₦310,000,000)">Inquire →</button>
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/modern-bmw-7series.jpg" alt="2024 BMW 760i" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Modern Executive</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">2024 BMW 760i xDrive</h4>
+                    <p class="text-xs text-silver-text mt-1">TwinPower Turbo V8, rear panoramic Theatre Screen, Bowers & Wilkins audio.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦260,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="2024 BMW 760i (₦260,000,000)">Inquire →</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Brand 4: Bugatti -->
+          <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
+            <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="false">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-silver-text/60"></span>
+                <span class="font-serif text-lg text-ivory font-medium">Bugatti • Type 57 & Chiron Super Sport</span>
+              </div>
+              <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300">expand_more</span>
+            </button>
+            <div class="acc-body hidden px-6 pb-6 pt-3 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/bugatti-type57.jpg" alt="1936 Bugatti Type 57" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Classic French Art</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">1936 Bugatti Type 57</h4>
+                    <p class="text-xs text-silver-text mt-1">3.3L DOHC Inline-8, Jean Bugatti Galibier design, Molsheim works.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦620,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="1936 Bugatti Type 57 (₦620,000,000)">Inquire →</button>
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[160px] overflow-hidden rounded mb-3 bg-night-deep">
+                      <img src="/images/modern-bugatti-chiron.jpg" alt="2024 Bugatti Chiron" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[10px] text-silver-text uppercase tracking-widest block">Modern Pinnacle</span>
+                    <h4 class="font-serif text-lg text-ivory font-semibold mt-0.5">2024 Chiron Super Sport</h4>
+                    <p class="text-xs text-silver-text mt-1">8.0L W16 Quad-Turbo, 1,500 horsepower, full carbon aerodynamic body.</p>
+                  </div>
+                  <div class="mt-4 pt-3 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-base">₦4,500,000,000</span>
+                    <button class="inquire-car-btn text-[11px] uppercase tracking-wider text-gold-accent underline hover:text-gold-light" data-model="2024 Bugatti Chiron Super Sport (₦4,500,000,000)">Inquire →</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Brand 5: Toyota & Venza -->
+          <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
+            <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="false">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-silver-text/60"></span>
+                <span class="font-serif text-lg text-ivory font-medium">Toyota & Venza • 2000GT, LC300 & Venza Nightshade</span>
+              </div>
+              <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300">expand_more</span>
+            </button>
+            <div class="acc-body hidden px-6 pb-6 pt-3 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-3.5 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[130px] overflow-hidden rounded mb-2.5 bg-night-deep">
+                      <img src="/images/toyota-2000gt.jpg" alt="1967 Toyota 2000GT" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[9px] text-silver-text uppercase tracking-widest block">Classic GT</span>
+                    <h4 class="font-serif text-base text-ivory font-semibold">1967 Toyota 2000GT</h4>
+                    <p class="text-[11px] text-silver-text mt-1">2.0L DOHC Inline-6, Yamaha developed, rosewood fascia.</p>
+                  </div>
+                  <div class="mt-3 pt-2.5 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-sm">₦215,000,000</span>
+                    <button class="inquire-car-btn text-[10px] uppercase text-gold-accent underline" data-model="1967 Toyota 2000GT (₦215,000,000)">Inquire →</button>
+                  </div>
+                </div>
+
+                <div class="p-3.5 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[130px] overflow-hidden rounded mb-2.5 bg-night-deep">
+                      <img src="/images/modern-toyota-lc300.jpg" alt="2024 Land Cruiser 300" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[9px] text-silver-text uppercase tracking-widest block">Modern SUV</span>
+                    <h4 class="font-serif text-base text-ivory font-semibold">2024 Land Cruiser 300</h4>
+                    <p class="text-[11px] text-silver-text mt-1">3.5L Twin-Turbo V6, e-KDSS, multi-terrain select AWD.</p>
+                  </div>
+                  <div class="mt-3 pt-2.5 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-sm">₦185,000,000</span>
+                    <button class="inquire-car-btn text-[10px] uppercase text-gold-accent underline" data-model="2024 Toyota Land Cruiser 300 (₦185,000,000)">Inquire →</button>
+                  </div>
+                </div>
+
+                <div class="p-3.5 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[130px] overflow-hidden rounded mb-2.5 bg-night-deep">
+                      <img src="/images/modern-toyota-venza.jpg" alt="2024 Toyota Venza" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[9px] text-silver-text uppercase tracking-widest block">Bespoke Crossover</span>
+                    <h4 class="font-serif text-base text-ivory font-semibold">2024 Venza Nightshade</h4>
+                    <p class="text-[11px] text-silver-text mt-1">Hybrid AWD, Star Gaze electrochromic glass, SofTex seats.</p>
+                  </div>
+                  <div class="mt-3 pt-2.5 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-sm">₦68,000,000</span>
+                    <button class="inquire-car-btn text-[10px] uppercase text-gold-accent underline" data-model="2024 Toyota Venza Nightshade (₦68,000,000)">Inquire →</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion Brand 6: Honda & Lexus -->
+          <div class="rounded-lg border border-gold-accent/25 bg-night-deep overflow-hidden">
+            <button type="button" class="acc-btn w-full px-6 py-4 flex items-center justify-between text-left hover:bg-night-surface/40 transition-colors" aria-expanded="false">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-silver-text/60"></span>
+                <span class="font-serif text-lg text-ivory font-medium">Honda & Lexus • S800, Civic Type R & LX 600</span>
+              </div>
+              <span class="material-symbols-outlined text-gold-accent acc-icon transition-transform duration-300">expand_more</span>
+            </button>
+            <div class="acc-body hidden px-6 pb-6 pt-3 border-t border-gold-accent/15 text-sm text-silver-text leading-relaxed">
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                
+                <div class="p-3 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[110px] overflow-hidden rounded mb-2 bg-night-deep">
+                      <img src="/images/honda-s800.jpg" alt="1966 Honda S800" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[9px] text-silver-text uppercase block">Classic Honda</span>
+                    <h5 class="font-serif text-sm text-ivory font-semibold">1966 Honda S800</h5>
+                  </div>
+                  <div class="mt-2.5 pt-2 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-xs">₦78,000,000</span>
+                    <button class="inquire-car-btn text-[9px] uppercase text-gold-accent underline" data-model="1966 Honda S800 Coupe (₦78,000,000)">Inquire</button>
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[110px] overflow-hidden rounded mb-2 bg-night-deep">
+                      <img src="/images/modern-honda-civic-r.jpg" alt="2024 Civic Type R" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[9px] text-silver-text uppercase block">Modern Honda</span>
+                    <h5 class="font-serif text-sm text-ivory font-semibold">Civic Type R (FL5)</h5>
+                  </div>
+                  <div class="mt-2.5 pt-2 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-xs">₦95,000,000</span>
+                    <button class="inquire-car-btn text-[9px] uppercase text-gold-accent underline" data-model="2024 Honda Civic Type R (₦95,000,000)">Inquire</button>
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[110px] overflow-hidden rounded mb-2 bg-night-deep">
+                      <img src="/images/lexus-ls400.jpg" alt="1993 Lexus LS 400" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[9px] text-silver-text uppercase block">Classic Lexus</span>
+                    <h5 class="font-serif text-sm text-ivory font-semibold">1993 Lexus LS 400</h5>
+                  </div>
+                  <div class="mt-2.5 pt-2 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-xs">₦92,000,000</span>
+                    <button class="inquire-car-btn text-[9px] uppercase text-gold-accent underline" data-model="1993 Lexus LS 400 Heritage (₦92,000,000)">Inquire</button>
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg bg-night-card border border-gold-accent/20 flex flex-col justify-between">
+                  <div>
+                    <div class="aspect-[16/9] max-h-[110px] overflow-hidden rounded mb-2 bg-night-deep">
+                      <img src="/images/modern-lexus-lx600.jpg" alt="2024 Lexus LX 600" class="w-full h-full object-cover"/>
+                    </div>
+                    <span class="text-[9px] text-silver-text uppercase block">Modern Lexus</span>
+                    <h5 class="font-serif text-sm text-ivory font-semibold">2024 Lexus LX 600</h5>
+                  </div>
+                  <div class="mt-2.5 pt-2 border-t border-gold-accent/15 flex items-center justify-between">
+                    <span class="font-bold text-gold-accent text-xs">₦240,000,000</span>
+                    <button class="inquire-car-btn text-[9px] uppercase text-gold-accent underline" data-model="2024 Lexus LX 600 F-Sport (₦240,000,000)">Inquire</button>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
 
         </div>
-      </div>
-    </section>
-
-    <!-- PROVENANCE TIMELINE SECTION -->
-    <section id="provenance" class="py-16 max-w-4xl mx-auto px-6">
-      <div class="text-center mb-12">
-        <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Custodianship</span>
-        <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase font-semibold">Documented Provenance Chain</h2>
-      </div>
-
-      <div class="relative border-l border-gold-accent/30 ml-4 md:ml-32 space-y-10">
-        
-        <!-- Timeline Item 1 -->
-        <div class="relative pl-8">
-          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gold-accent border-4 border-night-deep"></div>
-          <span class="text-xs font-semibold uppercase tracking-widest text-gold-accent">1932 — 1954</span>
-          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Sir Arthur Guinness</h4>
-          <p class="text-sm text-silver-text mt-1">Commissioned via Barker & Co. London. Registered GG-7801 for transcontinental touring to Cap d'Antibes.</p>
-        </div>
-
-        <!-- Timeline Item 2 -->
-        <div class="relative pl-8">
-          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-night-surface border-4 border-gold-accent/60"></div>
-          <span class="text-xs font-semibold uppercase tracking-widest text-gold-accent">1954 — 1982</span>
-          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Baron van Tuyll • Geneva, Switzerland</h4>
-          <p class="text-sm text-silver-text mt-1">Preserved in climate-controlled storage and exhibited at the 1968 Geneva Concours d'Elegance.</p>
-        </div>
-
-        <!-- Timeline Item 3 -->
-        <div class="relative pl-8">
-          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-night-surface border-4 border-gold-accent/60"></div>
-          <span class="text-xs font-semibold uppercase tracking-widest text-gold-accent">1982 — 2011</span>
-          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">Dr. H. Sterling Marque Collection</h4>
-          <p class="text-sm text-silver-text mt-1">Maintained in Gloucestershire; featured in Rolls-Royce Enthusiasts' Club (RREC) Golden Jubilee display.</p>
-        </div>
-
-        <!-- Timeline Item 4 -->
-        <div class="relative pl-8">
-          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gold-light border-4 border-night-deep animate-pulse"></div>
-          <span class="text-xs font-semibold uppercase tracking-widest text-gold-light">Present Day</span>
-          <h4 class="font-serif text-lg text-ivory font-semibold mt-1">The Sovereign Archive Sanctum</h4>
-          <p class="text-sm text-silver-text mt-1">Offered exclusively via private treaty with complete matching numbers audit and verified documentation.</p>
-        </div>
-
       </div>
     </section>
 
     <!-- PRIVATE TREATY VIEWING & INQUIRY FORM -->
-    <section id="inquiry" class="py-20 bg-night-card border-t border-gold-accent/20">
+    <section id="inquiry" class="py-16 bg-night-card border-t border-gold-accent/20">
       <div class="max-w-3xl mx-auto px-6">
-        <div class="text-center mb-10">
-          <span class="text-xs uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-2">Confidential Acquisition</span>
-          <h2 class="font-serif text-3xl sm:text-4xl text-ivory uppercase font-semibold">Book a Private Viewing or Acquisition</h2>
-          <p class="text-sm text-silver-text mt-2 max-w-lg mx-auto">
-            Viewings and acquisitions are conducted by appointment in Lagos, Abuja, London, or via international delivery.
+        <div class="text-center mb-8">
+          <span class="text-[11px] uppercase tracking-[0.25em] text-gold-accent font-semibold block mb-1">Confidential Acquisition</span>
+          <h2 class="font-serif text-2xl sm:text-3xl text-ivory uppercase tracking-[0.15em] font-semibold">Book a Private Viewing or Acquisition</h2>
+          <p class="text-xs text-silver-text mt-1 max-w-lg mx-auto">
+            Viewings and acquisitions are conducted by appointment in Lagos, Abuja, London, or via direct armored delivery.
           </p>
         </div>
 
         <!-- Form Card -->
-        <div class="p-8 sm:p-10 rounded-xl bg-night-deep border border-gold-accent/30 shadow-2xl">
-          <form id="private-treaty-form" class="space-y-6">
+        <div class="p-6 sm:p-8 rounded-xl bg-night-deep border border-gold-accent/30 shadow-2xl">
+          <form id="private-treaty-form" class="space-y-5">
             
             <!-- Selected Vehicle Indicator -->
             <div>
-              <label for="chassis-select" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Vehicle of Interest</label>
-              <select id="chassis-select" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/40 text-gold-accent font-semibold text-sm focus:border-gold-accent focus:outline-none cursor-pointer">
+              <label for="chassis-select" class="block text-xs uppercase tracking-wider text-silver-text mb-1.5">Vehicle of Interest (Certified Naira Pricing)</label>
+              <select id="chassis-select" class="w-full px-4 py-2.5 rounded bg-night-card border border-gold-accent/40 text-gold-accent font-semibold text-xs sm:text-sm focus:border-gold-accent focus:outline-none cursor-pointer">
                 <option value="1932 Rolls-Royce Phantom II (₦480,000,000)">1932 Rolls-Royce Phantom II Continental — ₦480,000,000</option>
+                <option value="2024 Rolls-Royce Phantom VIII (₦650,000,000)">2024 Rolls-Royce Phantom VIII — ₦650,000,000</option>
                 <option value="1936 Bugatti Type 57 (₦620,000,000)">1936 Bugatti Type 57 Galibier — ₦620,000,000</option>
+                <option value="2024 Bugatti Chiron Super Sport (₦4,500,000,000)">2024 Bugatti Chiron Super Sport — ₦4,500,000,000</option>
                 <option value="1955 Mercedes-Benz 300 SL (₦420,000,000)">1955 Mercedes-Benz 300 SL Gullwing — ₦420,000,000</option>
+                <option value="2024 Mercedes-AMG G 63 (₦380,000,000)">2024 Mercedes-AMG G 63 — ₦380,000,000</option>
                 <option value="1957 BMW 507 Roadster (₦310,000,000)">1957 BMW 507 Roadster — ₦310,000,000</option>
+                <option value="2024 BMW 760i (₦260,000,000)">2024 BMW 760i xDrive — ₦260,000,000</option>
                 <option value="1967 Toyota 2000GT (₦215,000,000)">1967 Toyota 2000GT Coupe — ₦215,000,000</option>
-                <option value="1966 Honda S800 Coupe (₦78,000,000)">1966 Honda S800 Coupe — ₦78,000,000</option>
-                <option value="1993 Lexus LS 400 Heritage (₦92,000,000)">1993 Lexus LS 400 Heritage — ₦92,000,000</option>
+                <option value="2024 Toyota Land Cruiser 300 (₦185,000,000)">2024 Toyota Land Cruiser 300 ZX — ₦185,000,000</option>
                 <option value="Toyota Venza Limited AWD (₦58,000,000)">Toyota Venza Limited AWD — ₦58,000,000</option>
+                <option value="2024 Toyota Venza Nightshade (₦68,000,000)">2024 Toyota Venza Nightshade — ₦68,000,000</option>
+                <option value="1966 Honda S800 Coupe (₦78,000,000)">1966 Honda S800 Coupe — ₦78,000,000</option>
+                <option value="2024 Honda Civic Type R (₦95,000,000)">2024 Honda Civic Type R (FL5) — ₦95,000,000</option>
+                <option value="1993 Lexus LS 400 Heritage (₦92,000,000)">1993 Lexus LS 400 Heritage — ₦92,000,000</option>
+                <option value="2024 Lexus LX 600 F-Sport (₦240,000,000)">2024 Lexus LX 600 F-Sport — ₦240,000,000</option>
               </select>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="full-name" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Full Name</label>
-                <input type="text" id="full-name" required placeholder="Alhaji / Chief / Mr. Adebayo" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
+                <label for="full-name" class="block text-xs uppercase tracking-wider text-silver-text mb-1">Full Legal Name</label>
+                <input type="text" id="full-name" required placeholder="Chief / Alhaji / Mr. Adebayo" class="w-full px-3.5 py-2.5 rounded bg-night-card border border-gold-accent/30 text-ivory text-xs sm:text-sm focus:border-gold-accent focus:outline-none"/>
               </div>
               <div>
-                <label for="email" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Email Address</label>
-                <input type="email" id="email" required placeholder="client@domain.com" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
+                <label for="email" class="block text-xs uppercase tracking-wider text-silver-text mb-1">Email Address</label>
+                <input type="email" id="email" required placeholder="client@sanctum.ng" class="w-full px-3.5 py-2.5 rounded bg-night-card border border-gold-accent/30 text-ivory text-xs sm:text-sm focus:border-gold-accent focus:outline-none"/>
               </div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="phone" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Phone Number</label>
-                <input type="tel" id="phone" required placeholder="+234 800 000 0000" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"/>
+                <label for="phone" class="block text-xs uppercase tracking-wider text-silver-text mb-1">Telephone / WhatsApp</label>
+                <input type="tel" id="phone" required placeholder="+234 800 000 0000" class="w-full px-3.5 py-2.5 rounded bg-night-card border border-gold-accent/30 text-ivory text-xs sm:text-sm focus:border-gold-accent focus:outline-none"/>
               </div>
               <div>
-                <label for="atelier-salon" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Preferred Viewing Location</label>
-                <select id="atelier-salon" class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none cursor-pointer">
-                  <option value="lagos">Ikoyi Salon, Lagos (Nigeria)</option>
-                  <option value="abuja">Maitama Sanctuary, Abuja (Nigeria)</option>
+                <label for="atelier-salon" class="block text-xs uppercase tracking-wider text-silver-text mb-1">Viewing Location</label>
+                <select id="atelier-salon" class="w-full px-3.5 py-2.5 rounded bg-night-card border border-gold-accent/30 text-ivory text-xs sm:text-sm focus:border-gold-accent focus:outline-none cursor-pointer">
+                  <option value="lagos">Ikoyi Private Atelier, Lagos</option>
+                  <option value="abuja">Maitama Sanctuary, Abuja</option>
                   <option value="mayfair">Mayfair Salon, London (UK)</option>
-                  <option value="geneva">Geneva Quai Salon (Switzerland)</option>
+                  <option value="direct">Direct Armored Delivery (Nigeria-wide)</option>
                 </select>
               </div>
             </div>
 
             <div>
-              <label for="notes" class="block text-xs uppercase tracking-wider text-silver-text mb-2">Inquiry / Custom Delivery Instructions</label>
-              <textarea id="notes" rows="3" placeholder="Specify preferred currency payment structure (Naira/USD), collection or armored transit requirements..." class="w-full px-4 py-3 rounded bg-night-card border border-gold-accent/30 text-ivory text-sm focus:border-gold-accent focus:outline-none"></textarea>
+              <label for="notes" class="block text-xs uppercase tracking-wider text-silver-text mb-1">Acquisition Notes & Payment Structure (Naira / USD Wire)</label>
+              <textarea id="notes" rows="2" placeholder="Provide notes regarding vehicle delivery, armored security escort, or collection preferences..." class="w-full px-3.5 py-2.5 rounded bg-night-card border border-gold-accent/30 text-ivory text-xs sm:text-sm focus:border-gold-accent focus:outline-none"></textarea>
             </div>
 
-            <button type="submit" class="w-full py-4 rounded bg-gold-accent hover:bg-gold-light text-night-deep font-semibold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.25)]">
-              Submit Inscription for Private Acquisition
+            <button type="submit" class="w-full py-3.5 rounded bg-gold-accent hover:bg-gold-light text-night-deep font-semibold text-xs uppercase tracking-[0.2em] transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.25)]">
+              Submit Acquisition Inscription
             </button>
           </form>
 
           <!-- Success Notification -->
           <div id="form-success-banner" class="hidden text-center py-6">
             <span class="material-symbols-outlined text-gold-accent text-5xl mb-2">verified</span>
-            <h3 class="font-serif text-2xl text-ivory font-semibold">Viewing & Acquisition Inscription Received</h3>
-            <p class="text-sm text-silver-text mt-2 max-w-md mx-auto">
-              Your inquiry has been encrypted and transmitted. Our Private Treaty Director will contact you discreetly within 4 hours.
+            <h3 class="font-serif text-xl sm:text-2xl text-ivory font-semibold">Acquisition Inscription Received</h3>
+            <p class="text-xs sm:text-sm text-silver-text mt-2 max-w-md mx-auto">
+              Your inquiry has been encrypted and transmitted. Our Private Treaty Director in Lagos / Abuja will reach out within 4 hours.
             </p>
           </div>
         </div>
@@ -701,15 +1092,15 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="py-12 border-t border-gold-accent/20 bg-night-deep text-silver-text text-xs">
+  <footer class="py-10 border-t border-gold-accent/20 bg-night-deep text-silver-text text-xs">
     <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-3">
-        <span class="font-serif text-lg text-gold-accent font-semibold tracking-widest uppercase">Sovereign Archive</span>
+        <span class="font-serif text-base text-gold-accent font-semibold tracking-[0.2em] uppercase">Sovereign Archive</span>
         <span class="text-silver-text/40">|</span>
-        <span>Heritage Motor Car Sanctum</span>
+        <span class="text-[11px] tracking-wider">Heritage &amp; Modern Motor Car Registry</span>
       </div>
       <div>
-        <span>© 2024 Sovereign Archive. All Rights Reserved. Private treaty acquisitions certified in ₦ (Naira).</span>
+        <span class="text-[11px] text-silver-text/70">© 2024 Sovereign Archive Sanctum. All rights reserved. Certified acquisition in ₦ (Naira).</span>
       </div>
     </div>
   </footer>
@@ -735,18 +1126,31 @@
       });
     });
 
-    // 2. Carousel Mechanics
+    // 2. Carousel Mechanics (8 featured slides)
     const track = document.getElementById('carousel-track');
-    const dots = document.querySelectorAll('.carousel-dot');
-    const thumbs = document.querySelectorAll('.thumb-btn');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dotsContainer = document.getElementById('carousel-dots-container');
     let activeIndex = 0;
-    const totalSlides = 4;
+    const totalSlides = slides.length;
+
+    // Dynamically build pagination dots
+    if (dotsContainer) {
+      dotsContainer.innerHTML = '';
+      for (let i = 0; i < totalSlides; i++) {
+        const dot = document.createElement('button');
+        dot.className = `carousel-dot h-1.5 rounded-full transition-all ${i === 0 ? 'w-5 bg-gold-accent' : 'w-2 bg-gold-accent/30'}`;
+        dot.setAttribute('data-slide', i);
+        dot.addEventListener('click', () => goToSlide(i));
+        dotsContainer.appendChild(dot);
+      }
+    }
 
     function goToSlide(idx) {
       activeIndex = (idx + totalSlides) % totalSlides;
       track.style.transform = `translateX(-${activeIndex * 100}%)`;
 
-      dots.forEach((dot, i) => {
+      const allDots = document.querySelectorAll('.carousel-dot');
+      allDots.forEach((dot, i) => {
         if (i === activeIndex) {
           dot.classList.add('w-5', 'bg-gold-accent');
           dot.classList.remove('w-2', 'bg-gold-accent/30');
@@ -755,22 +1159,19 @@
           dot.classList.add('w-2', 'bg-gold-accent/30');
         }
       });
-
-      thumbs.forEach((thumb, i) => {
-        if (i === activeIndex) {
-          thumb.classList.add('border-gold-accent', 'opacity-100');
-          thumb.classList.remove('border-gold-accent/20', 'opacity-60');
-        } else {
-          thumb.classList.remove('border-gold-accent', 'opacity-100');
-          thumb.classList.add('border-gold-accent/20', 'opacity-60');
-        }
-      });
     }
 
     document.getElementById('carousel-prev')?.addEventListener('click', () => goToSlide(activeIndex - 1));
     document.getElementById('carousel-next')?.addEventListener('click', () => goToSlide(activeIndex + 1));
-    dots.forEach((dot, i) => dot.addEventListener('click', () => goToSlide(i)));
-    thumbs.forEach((thumb, i) => thumb.addEventListener('click', () => goToSlide(i)));
+
+    // Auto-advance carousel smoothly every 6 seconds
+    let carouselTimer = setInterval(() => goToSlide(activeIndex + 1), 6000);
+    const carouselSection = document.getElementById('carousel-section');
+    carouselSection?.addEventListener('mouseenter', () => clearInterval(carouselTimer));
+    carouselSection?.addEventListener('mouseleave', () => {
+      clearInterval(carouselTimer);
+      carouselTimer = setInterval(() => goToSlide(activeIndex + 1), 6000);
+    });
 
     // 3. Showroom Brand Filter Mechanics
     const filterButtons = document.querySelectorAll('.filter-btn');
@@ -797,13 +1198,12 @@
       });
     });
 
-    // 4. Quick Inquire Button Handler (Smooth scroll & pre-fill)
+    // 4. Quick Inquire Button Handler (Smooth scroll & auto-select)
     const chassisSelect = document.getElementById('chassis-select');
     document.querySelectorAll('.inquire-car-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const model = btn.getAttribute('data-model');
         if (chassisSelect && model) {
-          // Select corresponding option or set value
           for (let i = 0; i < chassisSelect.options.length; i++) {
             if (chassisSelect.options[i].value === model || chassisSelect.options[i].text.includes(model.split(' ')[1])) {
               chassisSelect.selectedIndex = i;
